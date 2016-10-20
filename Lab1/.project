@@ -15,4 +15,8 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 </projectDescription>
-// B1 change!
+<<<<<<< HEAD
+// C4 change!
+=======
+// C4 change!
+>>>>>>> C4
