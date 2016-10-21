@@ -8,7 +8,7 @@ public class Calculater {
 		indexes=index.toCharArray();
 		if (!index.matches("[\\w\\d\\+\\-\\*/]*")||indexes[0]=='-'){//符号和字母限制||第一个字符为负号错误
 			System.out.println("Wrong");
-			
+			//test1
 			return "";
 		}
 
