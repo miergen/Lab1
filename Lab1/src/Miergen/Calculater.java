@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package Miergen;//这是第一次修改案例！！！
+=======
+package Miergen;
+>>>>>>> origin/xiaokai_branch
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -8,6 +12,10 @@ public class Calculater {
 		indexes=index.toCharArray();
 		if (!index.matches("[\\w\\d\\+\\-\\*/]*")||indexes[0]=='-'){//符号和字母限制||第一个字符为负号错误
 			System.out.println("Wrong");
+<<<<<<< HEAD
+=======
+			//test1
+>>>>>>> origin/xiaokai_branch
 			return "";
 		}
 
@@ -21,6 +29,10 @@ public class Calculater {
 		Matcher output=pattern2.matcher(index);
 		if(output.matches()){
 			System.out.println(index2);
+<<<<<<< HEAD
+=======
+			
+>>>>>>> origin/xiaokai_branch
 			return"";
 		}		
 		Pattern pattern = Pattern.compile("^!simplify [a-zA-Z].*");//输入正确格式的情况
@@ -83,7 +95,11 @@ public class Calculater {
 				Scanner input2= new Scanner(System.in);	
 				String index2=input.nextLine();
 	
+<<<<<<< HEAD
+// C4 change!
+=======
 
+>>>>>>> origin/xiaokai_branch
 				
 				
 
@@ -98,3 +114,7 @@ public class Calculater {
 	}
 
 }
+<<<<<<< HEAD
+// B1 change!
+=======
+>>>>>>> origin/xiaokai_branch

@@ -4,3 +4,15 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_101"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+<<<<<<< HEAD
+<<<<<<< HEAD
+//C4 change!
+=======
+<<<<<<< HEAD
+// C4 change!
+=======
+// C4 change!
+>>>>>>> C4
+>>>>>>> B1
+=======
+>>>>>>> origin/xiaokai_branch
